@@ -78,6 +78,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660234322987F33900ED8D2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				660234362988058200ED8D2C /* UserListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		660234332987F34300ED8D2C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66865B3929869B540076FA6B /* UserListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		660234342987F35700ED8D2C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		660234352988053700ED8D2C /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				66865B3529869B540076FA6B /* AppDelegate.swift */,
+				66865B3729869B540076FA6B /* SceneDelegate.swift */,
+			);
+			path = AppSetting;
+			sourceTree = "<group>";
+		};
 		66865B2929869B540076FA6B = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +133,10 @@
 		66865B3429869B540076FA6B /* RandomPeople */ = {
 			isa = PBXGroup;
 			children = (
-				66865B3529869B540076FA6B /* AppDelegate.swift */,
-				66865B3729869B540076FA6B /* SceneDelegate.swift */,
-				66865B3929869B540076FA6B /* ViewController.swift */,
+				660234352988053700ED8D2C /* AppSetting */,
+				66865B6529869B9B0076FA6B /* Network */,
+				660234332987F34300ED8D2C /* ViewController */,
+				660234342987F35700ED8D2C /* ViewModel */,
 				66865B3B29869B540076FA6B /* Main.storyboard */,
 				66865B3E29869B550076FA6B /* Assets.xcassets */,
 				66865B4029869B550076FA6B /* LaunchScreen.storyboard */,
@@ -127,6 +160,14 @@
 				66865B5829869B550076FA6B /* RandomPeopleUITestsLaunchTests.swift */,
 			);
 			path = RandomPeopleUITests;
+			sourceTree = "<group>";
+		};
+		66865B6529869B9B0076FA6B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				660234322987F33900ED8D2C /* Model */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +303,7 @@
 			files = (
 				66865B3A29869B540076FA6B /* UserListViewController.swift in Sources */,
 				66865B3629869B540076FA6B /* AppDelegate.swift in Sources */,
+				660234372988058200ED8D2C /* UserListModel.swift in Sources */,
 				66865B3829869B540076FA6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
