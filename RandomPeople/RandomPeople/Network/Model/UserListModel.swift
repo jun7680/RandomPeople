@@ -8,7 +8,7 @@
 import Foundation
 
 struct UserListModel: Codable {
-    let result: [UserResult]
+    let results: [UserResult]
     let info: ResultInfo
 }
 
@@ -34,27 +34,16 @@ struct UserResult: Codable {
         let city: String
         let state: String
         let country: String
-        let postCode: String
-        
+
         struct Street: Codable {
-            let number: Double
+            let number: Int
             let name: String
-        }
-        
-        enum CodingKeys: String, CodingKey {
-            case street, city, state, country
-            case postCode = "postcode"
         }
     }
     
     struct Login: Codable {
         let uuid: String
-        let userName: String
-        
-        enum CodingKeys: String, CodingKey {
-            case uuid
-            case userName = "username"
-        }
+        let username: String
     }
     
     struct Dob: Codable {
@@ -66,7 +55,23 @@ struct UserResult: Codable {
     }
 }
 
+extension UserResult {
+    var userInfo: String {
+        let name = name.title + ". " + name.first + " " + name.last
+        
+        return name
+    }
+    
+    var age: Int {
+        return dob.age
+    }
+    
+    var locationDesciption: String {
+        return location.country + " / " + location.city
+    }
+}
+
 struct ResultInfo: Codable {
-    let results: Double
-    let page: Double
+    let results: Int
+    let page: Int
 }

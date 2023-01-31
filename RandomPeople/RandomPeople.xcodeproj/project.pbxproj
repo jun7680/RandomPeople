@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		660234372988058200ED8D2C /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660234362988058200ED8D2C /* UserListModel.swift */; };
+		6602343A29880E4100ED8D2C /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602343929880E4100ED8D2C /* APIType.swift */; };
+		6602343D29880E6F00ED8D2C /* UserListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602343C29880E6F00ED8D2C /* UserListAPI.swift */; };
+		6602343F2988118900ED8D2C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602343E2988118900ED8D2C /* SessionManager.swift */; };
+		660234422988120D00ED8D2C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 660234412988120D00ED8D2C /* RxCocoa */; };
+		660234442988120D00ED8D2C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 660234432988120D00ED8D2C /* RxRelay */; };
+		660234462988120D00ED8D2C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 660234452988120D00ED8D2C /* RxSwift */; };
+		660234492988123100ED8D2C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 660234482988123100ED8D2C /* SnapKit */; };
+		6602344C2988196400ED8D2C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 6602344B2988196400ED8D2C /* Alamofire */; };
+		6602344F29881E0E00ED8D2C /* UserListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602344E29881E0E00ED8D2C /* UserListService.swift */; };
+		6602345129881F8100ED8D2C /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602345029881F8100ED8D2C /* UserListViewModel.swift */; };
+		6602345529882A7500ED8D2C /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602345429882A7500ED8D2C /* UserListCell.swift */; };
+		6602345829882AC200ED8D2C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6602345729882AC200ED8D2C /* Kingfisher */; };
+		6602345B29882CB200ED8D2C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602345A29882CB200ED8D2C /* UIViewExtension.swift */; };
+		6602345F2988EF9B00ED8D2C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602345E2988EF9B00ED8D2C /* BaseViewController.swift */; };
 		66865B3629869B540076FA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3529869B540076FA6B /* AppDelegate.swift */; };
 		66865B3829869B540076FA6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3729869B540076FA6B /* SceneDelegate.swift */; };
 		66865B3A29869B540076FA6B /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3929869B540076FA6B /* UserListViewController.swift */; };
@@ -38,6 +52,14 @@
 
 /* Begin PBXFileReference section */
 		660234362988058200ED8D2C /* UserListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModel.swift; sourceTree = "<group>"; };
+		6602343929880E4100ED8D2C /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
+		6602343C29880E6F00ED8D2C /* UserListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListAPI.swift; sourceTree = "<group>"; };
+		6602343E2988118900ED8D2C /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		6602344E29881E0E00ED8D2C /* UserListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListService.swift; sourceTree = "<group>"; };
+		6602345029881F8100ED8D2C /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		6602345429882A7500ED8D2C /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		6602345A29882CB200ED8D2C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6602345E2988EF9B00ED8D2C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		66865B3229869B540076FA6B /* RandomPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66865B3529869B540076FA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66865B3729869B540076FA6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6602345829882AC200ED8D2C /* Kingfisher in Frameworks */,
+				6602344C2988196400ED8D2C /* Alamofire in Frameworks */,
+				660234462988120D00ED8D2C /* RxSwift in Frameworks */,
+				660234492988123100ED8D2C /* SnapKit in Frameworks */,
+				660234442988120D00ED8D2C /* RxRelay in Frameworks */,
+				660234422988120D00ED8D2C /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +117,7 @@
 		660234332987F34300ED8D2C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6602345E2988EF9B00ED8D2C /* BaseViewController.swift */,
 				66865B3929869B540076FA6B /* UserListViewController.swift */,
 			);
 			path = ViewController;
@@ -97,6 +126,7 @@
 		660234342987F35700ED8D2C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6602345029881F8100ED8D2C /* UserListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -108,6 +138,47 @@
 				66865B3729869B540076FA6B /* SceneDelegate.swift */,
 			);
 			path = AppSetting;
+			sourceTree = "<group>";
+		};
+		6602343829880E3000ED8D2C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6602343929880E4100ED8D2C /* APIType.swift */,
+				6602343C29880E6F00ED8D2C /* UserListAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6602344D29881DFA00ED8D2C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6602344E29881E0E00ED8D2C /* UserListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6602345229882A4000ED8D2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6602345329882A6900ED8D2C /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6602345329882A6900ED8D2C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6602345429882A7500ED8D2C /* UserListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6602345929882C9900ED8D2C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6602345A29882CB200ED8D2C /* UIViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		66865B2929869B540076FA6B = {
@@ -135,8 +206,11 @@
 			children = (
 				660234352988053700ED8D2C /* AppSetting */,
 				66865B6529869B9B0076FA6B /* Network */,
+				6602344D29881DFA00ED8D2C /* Service */,
+				6602345229882A4000ED8D2C /* Views */,
 				660234332987F34300ED8D2C /* ViewController */,
 				660234342987F35700ED8D2C /* ViewModel */,
+				6602345929882C9900ED8D2C /* Extensions */,
 				66865B3B29869B540076FA6B /* Main.storyboard */,
 				66865B3E29869B550076FA6B /* Assets.xcassets */,
 				66865B4029869B550076FA6B /* LaunchScreen.storyboard */,
@@ -165,6 +239,8 @@
 		66865B6529869B9B0076FA6B /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				6602343E2988118900ED8D2C /* SessionManager.swift */,
+				6602343829880E3000ED8D2C /* API */,
 				660234322987F33900ED8D2C /* Model */,
 			);
 			path = Network;
@@ -186,6 +262,14 @@
 			dependencies = (
 			);
 			name = RandomPeople;
+			packageProductDependencies = (
+				660234412988120D00ED8D2C /* RxCocoa */,
+				660234432988120D00ED8D2C /* RxRelay */,
+				660234452988120D00ED8D2C /* RxSwift */,
+				660234482988123100ED8D2C /* SnapKit */,
+				6602344B2988196400ED8D2C /* Alamofire */,
+				6602345729882AC200ED8D2C /* Kingfisher */,
+			);
 			productName = RandomPeople;
 			productReference = 66865B3229869B540076FA6B /* RandomPeople.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +342,12 @@
 				Base,
 			);
 			mainGroup = 66865B2929869B540076FA6B;
+			packageReferences = (
+				660234402988120D00ED8D2C /* XCRemoteSwiftPackageReference "RxSwift" */,
+				660234472988123100ED8D2C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6602344A2988196400ED8D2C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				6602345629882AC200ED8D2C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 66865B3329869B540076FA6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,10 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6602345F2988EF9B00ED8D2C /* BaseViewController.swift in Sources */,
+				6602345529882A7500ED8D2C /* UserListCell.swift in Sources */,
 				66865B3A29869B540076FA6B /* UserListViewController.swift in Sources */,
+				6602345B29882CB200ED8D2C /* UIViewExtension.swift in Sources */,
 				66865B3629869B540076FA6B /* AppDelegate.swift in Sources */,
 				660234372988058200ED8D2C /* UserListModel.swift in Sources */,
 				66865B3829869B540076FA6B /* SceneDelegate.swift in Sources */,
+				6602345129881F8100ED8D2C /* UserListViewModel.swift in Sources */,
+				6602344F29881E0E00ED8D2C /* UserListService.swift in Sources */,
+				6602343A29880E4100ED8D2C /* APIType.swift in Sources */,
+				6602343D29880E6F00ED8D2C /* UserListAPI.swift in Sources */,
+				6602343F2988118900ED8D2C /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +746,74 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		660234402988120D00ED8D2C /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		660234472988123100ED8D2C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		6602344A2988196400ED8D2C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		6602345629882AC200ED8D2C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		660234412988120D00ED8D2C /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660234402988120D00ED8D2C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		660234432988120D00ED8D2C /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660234402988120D00ED8D2C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		660234452988120D00ED8D2C /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660234402988120D00ED8D2C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		660234482988123100ED8D2C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 660234472988123100ED8D2C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6602344B2988196400ED8D2C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6602344A2988196400ED8D2C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		6602345729882AC200ED8D2C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6602345629882AC200ED8D2C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66865B2A29869B540076FA6B /* Project object */;
 }
