@@ -13,6 +13,7 @@
 		660234462988120D00ED8D2C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 660234452988120D00ED8D2C /* RxSwift */; };
 		660234492988123100ED8D2C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 660234482988123100ED8D2C /* SnapKit */; };
 		6602345529882A7500ED8D2C /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602345429882A7500ED8D2C /* UserListCell.swift */; };
+		6602345829882AC200ED8D2C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6602345729882AC200ED8D2C /* Kingfisher */; };
 		66865B3629869B540076FA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3529869B540076FA6B /* AppDelegate.swift */; };
 		66865B3829869B540076FA6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3729869B540076FA6B /* SceneDelegate.swift */; };
 		66865B3A29869B540076FA6B /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3929869B540076FA6B /* UserListViewController.swift */; };
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6602345829882AC200ED8D2C /* Kingfisher in Frameworks */,
 				660234462988120D00ED8D2C /* RxSwift in Frameworks */,
 				660234492988123100ED8D2C /* SnapKit in Frameworks */,
 				660234442988120D00ED8D2C /* RxRelay in Frameworks */,
