@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		660234372988058200ED8D2C /* UserListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660234362988058200ED8D2C /* UserListModel.swift */; };
+		660234422988120D00ED8D2C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 660234412988120D00ED8D2C /* RxCocoa */; };
+		660234442988120D00ED8D2C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 660234432988120D00ED8D2C /* RxRelay */; };
+		660234462988120D00ED8D2C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 660234452988120D00ED8D2C /* RxSwift */; };
+		660234492988123100ED8D2C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 660234482988123100ED8D2C /* SnapKit */; };
+		6602345529882A7500ED8D2C /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602345429882A7500ED8D2C /* UserListCell.swift */; };
 		66865B3629869B540076FA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3529869B540076FA6B /* AppDelegate.swift */; };
 		66865B3829869B540076FA6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3729869B540076FA6B /* SceneDelegate.swift */; };
 		66865B3A29869B540076FA6B /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66865B3929869B540076FA6B /* UserListViewController.swift */; };
@@ -38,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		660234362988058200ED8D2C /* UserListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModel.swift; sourceTree = "<group>"; };
+		6602345429882A7500ED8D2C /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
 		66865B3229869B540076FA6B /* RandomPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66865B3529869B540076FA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66865B3729869B540076FA6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660234462988120D00ED8D2C /* RxSwift in Frameworks */,
+				660234492988123100ED8D2C /* SnapKit in Frameworks */,
+				660234442988120D00ED8D2C /* RxRelay in Frameworks */,
+				660234422988120D00ED8D2C /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660234442988120D00ED8D2C /* RxRelay in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660234422988120D00ED8D2C /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
