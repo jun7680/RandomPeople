@@ -30,6 +30,7 @@ class BaseViewController: UIViewController {
     }
     
     func setup() {
+        overrideUserInterfaceStyle = .light
         initView()
         bind()
         subscribeUI()
